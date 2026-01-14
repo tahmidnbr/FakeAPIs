@@ -1,12 +1,5 @@
 {
-  "users": [
-    {
-      "id": "u1",
-      "name": "Username",
-      "location": "Dhaka, Bangladesh"
-    }
-  ],
-
+  
   "banners": [
     {
       "id": "ban1",
@@ -46,14 +39,6 @@
       "activeTo": "02:00",
       "productIds": ["p4"]
     }
-  ],
-
-  "categories": [
-    { "id": "cat_all", "name": "All" },
-    { "id": "cat_pastry", "name": "Pastry" },
-    { "id": "cat_latte", "name": "Latte" },
-    { "id": "cat_cappuccino", "name": "Cappuccino" },
-    { "id": "cat_macchiato", "name": "Macchiato" }
   ],
 
   "products": [
@@ -145,27 +130,6 @@
       "tags": ["Coffee", "Dessert"],
       "location": "Dhaka",
       "productIds": ["p2"]
-    }
-  ],
-
-  "favorites": [
-    {
-      "userId": "u1",
-      "productIds": ["p2"],
-      "cafeIds": ["cafe2"]
-    }
-  ],
-
-  "cart": [
-    {
-      "userId": "u1",
-      "items": [
-        {
-          "productId": "p3",
-          "variant": "Regular",
-          "quantity": 1
-        }
-      ]
     }
   ]
 }
