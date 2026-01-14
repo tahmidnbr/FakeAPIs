@@ -136,7 +136,7 @@
     {
       "id": "cafe1",
       "name": "Hungry Hour",
-      "imageUrl": "https://cdn.example.com/cafes/hungry.jpg",
+      "imageUrl": "https://res.cloudinary.com/dtj7ghsyt/image/upload/v1768396008/p02rrzu9mmjgixjok7n2.jpg",
       "rating": 4.6,
       "deliveryTime": "20-25 min",
       "priceRange": "$$",
@@ -147,7 +147,7 @@
     {
       "id": "cafe2",
       "name": "Bean Street",
-      "imageUrl": "https://cdn.example.com/cafes/beanstreet.jpg",
+      "imageUrl": "https://res.cloudinary.com/dtj7ghsyt/image/upload/v1768396078/jvckdsrklr8fpztgte8v.jpg",
       "rating": 4.7,
       "deliveryTime": "25-30 min",
       "priceRange": "$$$",
