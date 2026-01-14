@@ -154,6 +154,18 @@
       "tags": ["Coffee", "Dessert"],
       "location": "Dhaka",
       "productIds": ["p2"]
+    },
+    {
+      "id": "cafe3",
+      "name": "Brew Dhaka",
+      "imageUrl": "https://res.cloudinary.com/dtj7ghsyt/image/upload/v1768396557/gfiosacllbi6sxyzowal.jpg",
+      "rating": 4.7,
+      "deliveryTime": "25-30 min",
+      "priceRange": "$$$",
+      "tags": ["Coffee", "Dessert"],
+      "location": "Dhaka",
+      "productIds": ["p2"]
     }
+
   ]
 }
