@@ -1,0 +1,171 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Username",
+      "location": "Dhaka, Bangladesh"
+    }
+  ],
+
+  "banners": [
+    {
+      "id": "ban1",
+      "imageUrl": "https://cdn.example.com/banners/night.jpg",
+      "title": "Night Owl Specials",
+      "targetType": "collection",
+      "targetId": "night"
+    },
+    {
+      "id": "ban2",
+      "imageUrl": "https://cdn.example.com/banners/morning.jpg",
+      "title": "Morning Boost",
+      "targetType": "collection",
+      "targetId": "morning"
+    }
+  ],
+
+  "collections": [
+    {
+      "id": "morning",
+      "name": "Morning Deals",
+      "activeFrom": "06:00",
+      "activeTo": "11:59",
+      "productIds": ["p1", "p2"]
+    },
+    {
+      "id": "evening",
+      "name": "Evening Deals",
+      "activeFrom": "16:00",
+      "activeTo": "19:59",
+      "productIds": ["p3"]
+    },
+    {
+      "id": "night",
+      "name": "Night Owl Specials",
+      "activeFrom": "20:00",
+      "activeTo": "02:00",
+      "productIds": ["p4"]
+    }
+  ],
+
+  "categories": [
+    { "id": "cat_all", "name": "All" },
+    { "id": "cat_pastry", "name": "Pastry" },
+    { "id": "cat_latte", "name": "Latte" },
+    { "id": "cat_cappuccino", "name": "Cappuccino" },
+    { "id": "cat_macchiato", "name": "Macchiato" }
+  ],
+
+  "products": [
+    {
+      "id": "p1",
+      "name": "Caffeine & Co Instant Coffee Gold 50g",
+      "imageUrl": "https://cdn.example.com/products/gold.jpg",
+      "price": 350,
+      "currency": "BDT",
+      "rating": 4.8,
+      "categoryId": "cat_latte",
+      "cafeId": "cafe1",
+      "deliveryTime": "25-30 min",
+      "available": true
+    },
+    {
+      "id": "p2",
+      "name": "Caffeine & Co Classic Coffee 50g",
+      "imageUrl": "https://cdn.example.com/products/classic.jpg",
+      "price": 330,
+      "currency": "BDT",
+      "rating": 4.7,
+      "categoryId": "cat_latte",
+      "cafeId": "cafe2",
+      "deliveryTime": "25-30 min",
+      "available": true
+    },
+    {
+      "id": "p3",
+      "name": "Dalgona Coffee",
+      "imageUrl": "https://cdn.example.com/products/dalgona.jpg",
+      "price": 199,
+      "currency": "BDT",
+      "rating": 4.8,
+      "categoryId": "cat_cappuccino",
+      "cafeId": "cafe1",
+      "deliveryTime": "25-30 min",
+      "available": true
+    }
+  ],
+
+  "productDetails": [
+    {
+      "productId": "p1",
+      "description": "Premium instant coffee with rich aroma and smooth taste.",
+      "images": [
+        "https://cdn.example.com/products/gold_1.jpg",
+        "https://cdn.example.com/products/gold_2.jpg"
+      ],
+      "variants": [
+        { "label": "50g", "price": 350 },
+        { "label": "100g", "price": 650 }
+      ],
+      "reviewsCount": 124
+    },
+    {
+      "productId": "p3",
+      "description": "Whipped coffee with strong espresso flavor.",
+      "images": [
+        "https://cdn.example.com/products/dalgona_1.jpg"
+      ],
+      "variants": [
+        { "label": "Regular", "price": 199 },
+        { "label": "Large", "price": 249 }
+      ],
+      "reviewsCount": 98
+    }
+  ],
+
+  "cafes": [
+    {
+      "id": "cafe1",
+      "name": "Hungry Hour",
+      "imageUrl": "https://cdn.example.com/cafes/hungry.jpg",
+      "rating": 4.6,
+      "deliveryTime": "20-25 min",
+      "priceRange": "$$",
+      "tags": ["Snacks", "Coffee"],
+      "location": "Dhaka",
+      "productIds": ["p1", "p3"]
+    },
+    {
+      "id": "cafe2",
+      "name": "Bean Street",
+      "imageUrl": "https://cdn.example.com/cafes/beanstreet.jpg",
+      "rating": 4.7,
+      "deliveryTime": "25-30 min",
+      "priceRange": "$$$",
+      "tags": ["Coffee", "Dessert"],
+      "location": "Dhaka",
+      "productIds": ["p2"]
+    }
+  ],
+
+  "favorites": [
+    {
+      "userId": "u1",
+      "productIds": ["p2"],
+      "cafeIds": ["cafe2"]
+    }
+  ],
+
+  "cart": [
+    {
+      "userId": "u1",
+      "items": [
+        {
+          "productId": "p3",
+          "variant": "Regular",
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}
