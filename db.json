@@ -3,14 +3,14 @@
   "banners": [
     {
       "id": "ban1",
-      "imageUrl": "https://cdn.example.com/banners/night.jpg",
+      "imageUrl": "https://res.cloudinary.com/dtj7ghsyt/image/upload/v1768377995/gj6pyzuojs4oapqxjula.jpg",
       "title": "Night Owl Specials",
       "targetType": "collection",
       "targetId": "night"
     },
     {
       "id": "ban2",
-      "imageUrl": "https://cdn.example.com/banners/morning.jpg",
+      "imageUrl": "https://res.cloudinary.com/dtj7ghsyt/image/upload/v1768378111/zjitmad0rxugqu0mxyaq.jpg",
       "title": "Morning Boost",
       "targetType": "collection",
       "targetId": "morning"
