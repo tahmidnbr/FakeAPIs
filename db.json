@@ -49,7 +49,7 @@
       "price": 350,
       "currency": "BDT",
       "rating": 4.8,
-      "categoryId": "cat_ameri",
+      "categoryId": "cat_Latte",
       "cafeId": "cafe1",
       "deliveryTime": "25-30 min",
       "available": true
@@ -61,7 +61,7 @@
       "price": 330,
       "currency": "BDT",
       "rating": 4.7,
-      "categoryId": "cat_macchiato",
+      "categoryId": "cat_Macchiato",
       "cafeId": "cafe2",
       "deliveryTime": "25-30 min",
       "available": true
